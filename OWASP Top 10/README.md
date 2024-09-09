@@ -17,4 +17,5 @@ Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most cr
 ### Command Injection Practical
 #### Q1.站根目錄下有什麼奇怪的文字檔案？
 ![image](https://github.com/user-attachments/assets/36375288-f2eb-450b-bde3-33a14c9eebc9)
+先看看當前目錄底下有什麼文字檔
 Answer: drpepper.txt
