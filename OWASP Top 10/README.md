@@ -15,3 +15,6 @@ Learn about and exploit each of the OWASP Top 10 vulnerabilities; the 10 most cr
 * SQL Injection: 通過注入惡意 SQL 查詢來操縱查詢結果
 * Command Injection: 輸入系統命令使應用程式伺服器執行系統命令
 ### Command Injection Practical
+#### Q1.站根目錄下有什麼奇怪的文字檔案？
+![image](https://github.com/user-attachments/assets/36375288-f2eb-450b-bde3-33a14c9eebc9)
+Answer: drpepper.txt
