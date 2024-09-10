@@ -27,6 +27,22 @@
 ![image](https://github.com/user-attachments/assets/79d02e53-9351-4032-a332-bcb2fb485f60)
 * Answer: www-data
 ### Q4. 使用者的shell設定為什麼？
-### Q5. 正在運行什麼版本的 Ubuntu？
-### Q6. 輸出 MOTD。顯示了最喜歡的飲料是什麼？
+1. 一樣查看使用者資訊但針對的是www-data:```grep www-data /etc/passwd```
 
+![image](https://github.com/user-attachments/assets/affc2806-3e3d-41f3-a886-e893a62cea5a)
+* Answer: /usr/sbin/nologin
+### Q5. 正在運行什麼版本的 Ubuntu？
+1. 顯示詳細的發行版本訊息:```lsb_release -a```
+
+![image](https://github.com/user-attachments/assets/14e74cb4-2316-4013-9e4d-f0472fe5a71f)
+* Answer: 18.04.4
+### Q6. 輸出 MOTD。顯示了最喜歡的飲料是什麼？
+> hint: 00-header
+* MOTD（Message of the Day):每次用戶登入時系統展示的歡迎訊息，通常包括系統資訊和通知等
+* 根據hint，00-header是負責展示系統標題和基本資訊的腳本
+* update-motd.d 是 Ubuntu 和某些 Linux 發行版本中的一個目錄，包含了在用戶登入系統時執行，生成 MOTD的一系列腳本
+1. 輸入:```cat /etc/update-motd.d/00-header```
+
+![image](https://github.com/user-attachments/assets/c34f649d-dcb9-4f13-b5b8-6b4a755a8636)
+
+* Answer: DR PEPPER 
